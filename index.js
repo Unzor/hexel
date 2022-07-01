@@ -39,8 +39,7 @@ var funcs = {
         var res = await fetch(url)
         res = await res.text()
         res = res.replaceAll(`\``, "\\`")
-        browser.evaluate(`
-var hexel_exports = {}
+        browser.evaluate(`var hexel_exports = {}
 var exs = [];
 var exports = 0;
 function hexel_export(a){
@@ -52,8 +51,7 @@ function hexel_export(a){
 }
   ${res}
   script = undefined;
-  console.log("Script loaded. Exported "+exports+" variables into window. (export names: "+exs.join(', ')+")");
-`);
+  console.log("Script loaded. Exported "+exports+" variables into window. (export names: "+exs.join(', ')+")");`);
     },
     newTab: () => {
         // Description: opens a new tab
