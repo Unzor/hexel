@@ -14,6 +14,7 @@ function help(a) {
     }
     return descriptions.join('\n') + '\n';
 }
+
 var tab = 1
 var funcs = {
     visit: (url) => {
