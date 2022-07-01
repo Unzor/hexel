@@ -26,7 +26,6 @@ hexel::visit(https://github.com)
 ## All Hexel commands
 Here is the entire list of Hexel commands ([source](https://github.com/Unzor/hexel/blob/main/index.js#L18-L97)):
 ```
-
 - visit (usage: "hexel::visit(https://url.here)"): redirects to a URL
 
 - reset (usage: "hexel::reset()"): refreshes the webpage
