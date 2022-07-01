@@ -24,7 +24,7 @@ Or if you want to visit a webpage, run this:
 hexel::visit(https://github.com)
 ```
 ## All Hexel commands
-Here is the entire list of Hexel commands ([source](https://github.com/Unzor/hexel/blob/main/index.js#L18-L97)):
+Here is the entire list of Hexel commands ([source](https://github.com/Unzor/hexel/blob/26405db80b00aa3cf0be0cd2687eb0da51f15e69/index.js#L18-L97)):
 ```
 - visit (usage: "hexel::visit(https://url.here)"): redirects to a URL
 
