@@ -1,5 +1,4 @@
 const fetch = require('node-fetch')
-const prompt = require('prompt-sync')();
 const Browser = require('zombie');
 const repl = require("repl");
 
