@@ -40,7 +40,7 @@ Here is the entire list of Hexel commands ([source](https://github.com/Unzor/hex
 
 - closeTab (usage: "hexel::closeTab(2) (closes second tab)"): close a tab
 
-- closeAllTabs (usage: "undefined"): undefined
+- closeAllTabs (usage: "hexel::closeAllTabs()"): close all tabs
 
 - currentTab (usage: "hexel::currentTab()"): gets number of current tab
 
